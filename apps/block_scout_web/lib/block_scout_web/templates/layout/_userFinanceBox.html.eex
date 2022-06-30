@@ -1,0 +1,91 @@
+<div class="userFinanceBox userFinanceBoxTransactions">
+    <div class="row align-items-center">
+        <div class="col-lg-8 sep-border-right">
+            <label for="search" class="searchInput w100 searchInput-grey">
+                <svg class="iconEl search-icon">
+                    <use xlink:href="images/sprite.svg#search"></use>
+                </svg>
+                <input type="text" id="search" placeholder="Поиск по адресам, блокам, транзакциям, хешам и токенам...">
+            </label>
+            <div class="d-flex justify-content-between flex-sm-row flex-column finance-items">
+                <div class="finance-item-info">
+                    <div class="finance-item-info-icon">
+                        <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M17.3846 2H3.92308C3.41305 2 2.9239 2.20261 2.56326 2.56326C2.20261 2.9239 2 3.41305 2 3.92308V25.0769C2 25.587 2.20261 26.0761 2.56326 26.4367C2.9239 26.7974 3.41305 27 3.92308 27H25.0769C25.587 27 26.0761 26.7974 26.4367 26.4367C26.7974 26.0761 27 25.587 27 25.0769V11.6154L17.3846 2Z"
+                                stroke="#6D00F3" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M17.3838 10.6538V2L26.9992 11.6154H18.3453C18.0903 11.6154 17.8457 11.5141 17.6654 11.3338C17.4851 11.1534 17.3838 10.9089 17.3838 10.6538Z"
+                                stroke="#6D00F3" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M9.69238 9.69223V6.80762" stroke="#6D00F3" stroke-width="3" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path
+                                d="M6.80762 17.3847C6.80762 18.827 8.09608 19.3078 9.69223 19.3078C11.2884 19.3078 12.5768 19.3078 12.5768 17.3847C12.5768 14.5001 6.80762 14.5001 6.80762 11.6155C6.80762 9.69238 8.09608 9.69238 9.69223 9.69238C11.2884 9.69238 12.5768 10.4232 12.5768 11.6155"
+                                stroke="#6D00F3" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M9.69238 19.3076V22.1922" stroke="#6D00F3" stroke-width="3" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M17.3838 19.3076H23.153" stroke="#6D00F3" stroke-width="3" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                    <div class="finance-item-info-content">
+                        <div class="finance-item-info-content__label">TMY PRICE</div>
+                        <div class="finance-item-info-content__val"><span>$2 086,30</span> @ 0.06858 <svg width="9"
+                                height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M4.95041 0.985797H4.05933V2.91054L4.50937 3.1852L4.9495 2.91054V0.985797H4.95041ZM0 0V0.985797H9.00074V0H0Z"
+                                    fill="#474C5F" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M4.50037 4.02301L8.18437 1.70117H9.00074V8.9999H8.18437V2.84559L4.50037 5.16743L0.844269 2.84559V8.9999H0V1.70117H0.820867L4.50037 4.02301Z"
+                                    fill="#474C5F" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M4.50579 6.34902L7.49943 4.42533L7.50573 5.56549L4.95312 7.20494V8.99981H4.06295V7.20813L1.49414 5.55804L1.50134 4.41895L4.50579 6.34902Z"
+                                    fill="#474C5F" />
+                            </svg></div>
+                    </div>
+                </div>
+                <div class="finance-item-info">
+                    <div class="finance-item-info-icon">
+                        <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M25.0769 2H3.92308C2.86099 2 2 2.86099 2 3.92308V15.4615C2 16.5236 2.86099 17.3846 3.92308 17.3846H25.0769C26.139 17.3846 27 16.5236 27 15.4615V3.92308C27 2.86099 26.139 2 25.0769 2Z"
+                                stroke="#6D00F3" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M14.4998 12.5768C16.093 12.5768 17.3845 11.2854 17.3845 9.69223C17.3845 8.0991 16.093 6.80762 14.4998 6.80762C12.9067 6.80762 11.6152 8.0991 11.6152 9.69223C11.6152 11.2854 12.9067 12.5768 14.4998 12.5768Z"
+                                stroke="#6D00F3" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M3.92383 22.1924H25.0777" stroke="#6D00F3" stroke-width="3" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M5.8457 27H23.1534" stroke="#6D00F3" stroke-width="3" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                    <div class="finance-item-info-content">
+                        <div class="finance-item-info-content__label">TRANSACTIONS</div>
+                        <div class="finance-item-info-content__val"><span>1,576.44 M</span> / (13.4 TPS)</div>
+                    </div>
+                </div>
+                <div class="finance-item-info">
+                    <div class="finance-item-info-icon">
+                        <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M14.5 27C21.4036 27 27 21.4036 27 14.5C27 7.59644 21.4036 2 14.5 2C7.59644 2 2 7.59644 2 14.5C2 21.4036 7.59644 27 14.5 27Z"
+                                stroke="#6D00F3" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M14.5 2V14.5L23.3462 23.3462" stroke="#6D00F3" stroke-width="3"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                    <div class="finance-item-info-content">
+                        <div class="finance-item-info-content__label">MED GAS PRICE</div>
+                        <div class="finance-item-info-content__val"><span>25 Gwei ($1.10)</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="pl-lg-4">
+                <div class="chartHeading">TMY ИСТОРИЯ ТРАНЗАКЦИЙ ЗА 14 ДНЕЙ</div>
+                <canvas id="myChart" width="100%" height="100" class="chartEl"></canvas>
+            </div>
+        </div>
+    </div>
+</div>

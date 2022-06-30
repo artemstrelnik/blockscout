@@ -209,7 +209,7 @@
       <% true -> %>
         <%= nil %>
     <% end %>
-    <div class="layout-container">
+    <div class="main-wrapper container">
       <% show_maintenance_alert = Application.get_env(:block_scout_web, BlockScoutWeb.Chain)[:show_maintenance_alert] %>
       <%= if show_maintenance_alert do %>
         <div class="alert alert-warning text-center mb-0 p-3" data-selector="indexed-status">
@@ -223,14 +223,11 @@
           <%= gettext("- We're indexing this chain right now. Some of the counts may be inaccurate.") %>
         </div>
       <% end %>
-      <%= render BlockScoutWeb.LayoutView, "_topnav.html", assigns %>
-
-      <main class="js-ad-dependant-pt pt-5">
-        <p class="alert alert-info" role="alert"><%= get_flash(@conn, :info) %></p>
-        <p class="alert alert-danger" role="alert"><%= get_flash(@conn, :error) %></p>
-        <%= @inner_content %>
-      </main>
-      <%= render BlockScoutWeb.LayoutView, "_footer.html", assigns %>
+      <%# <%= render BlockScoutWeb.LayoutView, "_topnav.html", assigns %> %>
+      <%= render BlockScoutWeb.LayoutView, "_header.html", assigns %>
+      <%= render BlockScoutWeb.LayoutView, "_asideToolbar.html", assigns %>
+      <%= render BlockScoutWeb.LayoutView, "_userFinanceBox.html.html", assigns %>
+      
     </div>
     <%= if (
       @view_module != Elixir.BlockScoutWeb.ChainView &&
