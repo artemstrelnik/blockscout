@@ -225,8 +225,6 @@
       <% end %>
       <%# <%= render BlockScoutWeb.LayoutView, "_topnav.html", assigns %> %>
       <%= render BlockScoutWeb.LayoutView, "_header.html", assigns %>
-      <%= render BlockScoutWeb.LayoutView, "_asideToolbar.html", assigns %>
-      <%# <%= render BlockScoutWeb.LayoutView, "_userFinanceBox.html.html", assigns %> %>
       
     </div>
     <%= if (

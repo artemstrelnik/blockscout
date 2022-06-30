@@ -133,6 +133,4 @@ $fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
 @import "theme/custom_contracts/circles-theme";
 
 // Wallet
-@import "wallet/header";
-@import "wallet/asideToolbar";
-// @import "wallet/userFinanceBox";
+@import "wallet/_header";
