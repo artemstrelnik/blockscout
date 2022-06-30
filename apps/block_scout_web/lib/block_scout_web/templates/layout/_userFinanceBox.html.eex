@@ -2,9 +2,9 @@
     <div class="row align-items-center">
         <div class="col-lg-8 sep-border-right">
             <label for="search" class="searchInput w100 searchInput-grey">
-                <svg class="iconEl search-icon">
+                <%# <svg class="iconEl search-icon">
                     <use xlink:href="images/sprite.svg#search"></use>
-                </svg>
+                </svg> %>
                 <input type="text" id="search" placeholder="Поиск по адресам, блокам, транзакциям, хешам и токенам...">
             </label>
             <div class="d-flex justify-content-between flex-sm-row flex-column finance-items">
