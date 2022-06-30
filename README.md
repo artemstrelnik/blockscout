@@ -1,4 +1,4 @@
-#Refactor template
+##Refactor template
 
 <h1 align="center">BlockScout</h1>
 <p align="center">Blockchain Explorer for inspecting and analyzing EVM Chains.</p>
